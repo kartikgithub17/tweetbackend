@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: TweetApplication
+  data:
+    mongodb:
+      #host: localhost
+      #port: 27017
+      #database: tweetapp  
+       uri: mongodb+srv://kartik:kartik@cluster0.jb4snme.mongodb.net/TweetApp?retryWrites=true&w=majority  
+server.port: 8081
